@@ -75,5 +75,9 @@ dkms.conf
 # Executables
 
 
+# Preprocessor expanded tests
+*.i
+*.s
+
 # End of https://www.gitignore.io/api/c,c++
 
