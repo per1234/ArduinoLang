@@ -1,6 +1,6 @@
 # ArduinoLang
 
-Converting Wiring and C++ reserved words language to
+Translating Wiring and C++ reserved words language to
 something different than English
 
 ### See this readme in your language
