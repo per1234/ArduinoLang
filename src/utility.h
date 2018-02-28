@@ -46,6 +46,36 @@
 
 
 // Overload macro
-#define GET_MACRO(_1,_2,NAME,...) NAME
+#define GET_MACRO(_0, _1, _2, _3, _4, NAME,...) NAME
+
+// Check if __VA_ARGS__ is non empty
+// <3 https://stackoverflow.com/questions/21474061/detect-presence-or-absence-of-arguments-in-a-c-macro
+ // Return the first of two arguments
+#define GET(_0, _1) _0
+// Return the second of two arguments
+#define GET_(_0, _1) _1
+// Concatenate two arguments
+#define JOIN(_0, _1) _0 ## _1
+// Expand macros and concatenate
+#define EJOIN(_0, _1) JOIN(_0, _1)
+
+// Truncate everything after first comma
+#define FIRST(_, ...) _
+// Expand argument and pass to FIRST
+#define EFIRST(_) FIRST(_)
+
+// Remove everything before first comma
+#define REST(_0, ...) __VA_ARGS__
+
+// Branch between GET and GET_
+#define GET_GET(...) \
+    EJOIN(GET, EFIRST(REST(,,##__VA_ARGS__ _)))
+
+#define IFARGS(YES, NO, ...) GET_GET(__VA_ARGS__)(YES, NO)
+
+// Prepend equal if non empty
+#define PREPEND_EQUAL(...) = __VA_ARGS__
+#define NO_EQUAL()
+#define PREPEND_EQUAL_IF_NONEMPTY(...) IFARGS(PREPEND_EQUAL, NO_EQUAL, __VA_ARGS__)(__VA_ARGS__)
 
 #endif

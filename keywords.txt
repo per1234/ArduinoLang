@@ -11,6 +11,8 @@ leiaDigital			KEYWORD2
 leiaAnalogico			KEYWORD2
 declare			KEYWORD2
 espera			KEYWORD2
+tom			KEYWORD2
+semTom			KEYWORD2
 
 # Methods -- KEYWORD2
 # ---------------------
@@ -22,10 +24,11 @@ imprimeln		KEYWORD2
 # ---------------------
 numerico			RESERVED_WORD_2
 decimal			RESERVED_WORD_2
+vetor			RESERVED_WORD_2
+declare			RESERVED_WORD_2
 
 # Reserved -- RESERVED_WORD
 # -------------------------
-enquanto			RESERVED_WORD
 
 retorna			RESERVED_WORD
 fim_algoritmo			RESERVED_WORD
@@ -40,6 +43,13 @@ senao			RESERVED_WORD
 
 ou			RESERVED_WORD
 e			RESERVED_WORD
+
+para			RESERVED_WORD
+de			RESERVED_WORD
+ate			RESERVED_WORD
+
+enquanto			RESERVED_WORD
+faca			RESERVED_WORD
 
 # Constants -- RESERVED_WORD_2
 # -------------------------
@@ -61,7 +71,6 @@ LED_INTEGRADO			RESERVED_WORD_2
 inicio			DATA_TYPE
 fim			DATA_TYPE
 fimse			DATA_TYPE
-faca			DATA_TYPE
 
 # LibNames -- DATA_TYPE
 # -------------------------

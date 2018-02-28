@@ -38,10 +38,18 @@
 // Redefine reserved words
 #define retorna PREVENT_SEMICOLON_ERROR return
 
+// Just types
+#define numerico0() int
+#define decimal0() float
+
 // Redefine types
 #define declareType(_TYPE, _NAME) PREVENT_SEMICOLON_ERROR _TYPE _NAME;
 #define numerico1(_NAME) declareType(int, _NAME)
 #define decimal1(_NAME) declareType(float, _NAME)
+
+// Vector Initialization
+#define vetor(_TYPE, _NAME, _SIZE, ...) PREVENT_SEMICOLON_ERROR _TYPE _NAME[_SIZE + 1] PREPEND_EQUAL_IF_NONEMPTY(__VA_ARGS__);
+//#define vetor(...) GET_MACRO(_, ##__VA_ARGS__, vetor4, vetor3, _, _, _)(__VA_ARGS__)
 
 // Types with values
 #define declareTypeValue(_TYPE, _NAME, _VALUE) PREVENT_SEMICOLON_ERROR _TYPE _NAME = _VALUE;
@@ -49,8 +57,8 @@
 #define decimal2(_NAME, _VALUE) declareTypeValue(float, _NAME, _VALUE)
 
 // Overloaded declare functions
-#define numerico(...) GET_MACRO(__VA_ARGS__, numerico2, numerico1)(__VA_ARGS__)
-#define decimal(...) GET_MACRO(__VA_ARGS__, decimal2, decimal1)(__VA_ARGS__)
+#define numerico(...) GET_MACRO(_, ##__VA_ARGS__, _, _, numerico2, numerico1, numerico0)(__VA_ARGS__)
+#define decimal(...) GET_MACRO(_, ##__VA_ARGS__, _, _, decimal2, decimal1, decimal0)(__VA_ARGS__)
 
 // And then the function to declare any number of vars
 #define declare(_TYPE, ...) PREVENT_SEMICOLON_ERROR CALL_MACRO_X_FOR_EACH(_TYPE, __VA_ARGS__)
@@ -73,6 +81,8 @@
 #define escrevaDigital(_PIN, _STATE) PREVENT_SEMICOLON_ERROR digitalWrite(_PIN, _STATE);
 #define escrevaAnalogico(_PIN, _VALUE) PREVENT_SEMICOLON_ERROR analogWrite(_PIN, _VALUE);
 #define espera(_TIME) PREVENT_SEMICOLON_ERROR delay(_TIME);
+#define tom(_TIME, _NOTE, _DURATION) PREVENT_SEMICOLON_ERROR tone(_TIME, _NOTE, _DURATION);
+#define semTom(_TIME) PREVENT_SEMICOLON_ERROR noTone(_TIME);
 
 // Basic functions with return
 #define leiaAnalogico(_PIN) analogRead(_PIN);
@@ -82,6 +92,9 @@
 #define comecar begin
 #define imprime(_TEXT) println(_TEXT);
 #define imprimeln(_TEXT) print(_TEXT);
+
+// Avoid errors on objects
+#define Serial PREVENT_SEMICOLON_ERROR Serial
 
 // Constants
 #define ALTO HIGH
