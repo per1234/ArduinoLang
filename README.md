@@ -50,5 +50,5 @@ Created By Jeferson Lima de Almeida (@jefersonla)
 ## Support & Development
 
 Feel free to send me e-mail's asking about this project or
-if you want to buy a coffee for me : oi_je at hotmal dot com
+if you want buy me a coffee : oi_je at hotmal dot com
 
