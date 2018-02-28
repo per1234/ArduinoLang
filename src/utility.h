@@ -45,5 +45,7 @@
 	_fe_4, _fe_3, _fe_2, _fe_1, _fe_0)(x, ##__VA_ARGS__)
 
 
+// Overload macro
+#define GET_MACRO(_1,_2,NAME,...) NAME
 
 #endif

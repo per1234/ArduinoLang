@@ -12,6 +12,12 @@ leiaAnalogico			KEYWORD2
 declare			KEYWORD2
 espera			KEYWORD2
 
+# Methods -- KEYWORD2
+# ---------------------
+comecar			KEYWORD2
+imprime			KEYWORD2
+imprimeln		KEYWORD2
+
 # Datatypes -- RESERVED_WORD
 # ---------------------
 numerico			RESERVED_WORD_2
@@ -20,7 +26,6 @@ decimal			RESERVED_WORD_2
 # Reserved -- RESERVED_WORD
 # -------------------------
 enquanto			RESERVED_WORD
-faca			RESERVED_WORD
 
 retorna			RESERVED_WORD
 fim_algoritmo			RESERVED_WORD
@@ -32,7 +37,9 @@ se			RESERVED_WORD
 entao			RESERVED_WORD
 casocontrario			RESERVED_WORD
 senao			RESERVED_WORD
-fimse			RESERVED_WORD
+
+ou			RESERVED_WORD
+e			RESERVED_WORD
 
 # Constants -- RESERVED_WORD_2
 # -------------------------
@@ -53,14 +60,17 @@ LED_INTEGRADO			RESERVED_WORD_2
 # -------------------------
 inicio			DATA_TYPE
 fim			DATA_TYPE
+fimse			DATA_TYPE
+faca			DATA_TYPE
 
-# LibNames -- KEYWORD1
+# LibNames -- DATA_TYPE
 # -------------------------
-ArduinoLangPT_Portugol			KEYWORD1
-ArduinoLangPT			KEYWORD1
-ArduinoLangES			KEYWORD1
+ArduinoLangPT_Portugol			DATA_TYPE
+ArduinoLangPT			DATA_TYPE
+ArduinoLangES			DATA_TYPE
 
-################# HELP 
+################# HELP #################
+# see this post https://forum.arduino.cc/index.php?topic=488243.0
 
 # the purpose of this file is to allow the keyword coloration of all keywords to be easily checked
 keywordKEYWORD1			KEYWORD1

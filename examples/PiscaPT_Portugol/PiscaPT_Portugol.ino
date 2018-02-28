@@ -1,5 +1,5 @@
 /*
-  Pisca Portugol
+  Pisca em Portugol
 
   Liga o led por um segundo desliga o mesmo por um segundo, espera outro segundo
   e assim por diante.
@@ -23,7 +23,7 @@ configura
 inicio
 
   // Configura o pino 13 como saída
-  modoPino(13, OUTPUT)
+  modoPino(LED_INTEGRADO, SAIDA)
 
 fim
 
@@ -32,13 +32,13 @@ algoritmo
 inicio
 
   // Liga o Led no Pino 13
-  escrevaDigital(13, HIGH)
+  escrevaDigital(LED_INTEGRADO, LIGADO)
 
   // Espera por um segundo
   espera(UM_SEGUNDO)
 
   // Desliga o Led no Pino 13
-  escrevaDigital(13, LOW)
+  escrevaDigital(LED_INTEGRADO, DESLIGADO)
 
   // Espera outro segundo
   espera(UM_SEGUNDO)
