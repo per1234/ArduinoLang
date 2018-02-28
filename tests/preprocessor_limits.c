@@ -21,7 +21,7 @@
 // Recreate lasso to apear more like portugol
 #define se ;if( 
 #define entao ){
-#define casocontrario ;} elseif (
+#define senaose ;} else if (
 #define senao ;} else {
 #define fimse ;}
 
@@ -91,11 +91,9 @@
 #define declare(tipo, ...) ;CALL_MACRO_X_FOR_EACH(tipo, __VA_ARGS__)
 
 // For in portugol style
-// Problems in expasion make this not possible
-#define para(par) for(par = par2; par < par3; par++)
-#define faca {
-#define de ,
-#define ate ,
+#define para ;for(
+#define de = 
+#define ate(X, Y) ; X <= Y ; X++
 
 // While in portugol style
 #define enquanto ;while(
@@ -114,11 +112,13 @@ inicio
 		escreva("Numero impar")
 	fimse
 
-	/*
 	se x == 0 entao
 		escreva("Escolheu 0")
-	casocontrario x 
-	*/
+	senaose x <= 10 entao
+		escreva("Escolheu entre 1 e 10")
+	senao
+		escreva("Maior que 10")
+	fimse
 
 	escreva("Enquanto de 1 ate 10")
 	declare(numerico, i)
@@ -129,12 +129,12 @@ inicio
 		i = i + 1
 	fim
 
+	escreva("Laco de 1 até 5")
 	declare(numerico, j)
-	para(j de 1 ate 2)
-	faca
-		//escreva("--" variavel_numerica, j)
+	para j de 1 ate(j, 5) faca
+	inicio
+		escreva("j == > " variavel_numerica, j)
 	fim
-	
 
 	retorna fim_sucesso
 fim_algoritmo
