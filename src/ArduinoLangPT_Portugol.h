@@ -73,6 +73,7 @@
 
 // And then the function to declare any number of vars
 #define declare(_TYPE, ...) PREVENT_SEMICOLON_ERROR CALL_MACRO_X_FOR_EACH(_TYPE, __VA_ARGS__)
+#define variavel(_TYPE, ...) declare(_TYPE, __VA_ARGS__)
 
 // While in portugol style
 #define enquanto PREVENT_SEMICOLON_ERROR while(
