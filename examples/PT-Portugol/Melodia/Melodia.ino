@@ -24,14 +24,17 @@
 #include "notas.h"
 
 // Declara o vetor de duracao das notas
-vetor(numerico(), duracaoNotas, 8, {
+vetor(numerico, duracaoNotas, 8, {
   4, 8, 8, 4, 4, 4, 4, 4 
 })
 
 // Declara o vetor da melodia
-vetor(numerico(), melodia, 8, {
+vetor(numerico, melodia, 8, {
   NOTA_C4, NOTA_G3, NOTA_G3, NOTA_A3, NOTA_G3, 0, NOTA_B3, NOTA_C4
 })
+
+// Especifica o pino do alto falante
+numerico(pinoAltoFalante, 8)
 
 // Configura o arduino
 configura
@@ -48,7 +51,7 @@ inicio
     duracaoNota = 1000 / duracaoNotas[estaNota]
     
     // Executa o tom pelo tempo definido
-    tom(8, melodia[estaNota], duracaoNota)
+    tom(pinoAltoFalante, melodia[estaNota], duracaoNota)
 
     // Como o tom é executado em paralelo, para sentirmos a diferença entre as notas
     // iremos esperar por 30% do tempo a mais, porque funciona bem
@@ -57,7 +60,7 @@ inicio
     espera(pausaEntreNotas)
 
     // Para de executar o som
-    semTom(8)
+    semTom(pinoAltoFalante)
     
   fim
 

@@ -13,19 +13,32 @@ declare			KEYWORD2
 espera			KEYWORD2
 tom			KEYWORD2
 semTom			KEYWORD2
+limites			KEYWORD2
+mapeie			KEYWORD2
 
 # Methods -- KEYWORD2
 # ---------------------
 comecar			KEYWORD2
+comeca			KEYWORD2
 imprime			KEYWORD2
+imprimir			KEYWORD2
 imprimeln		KEYWORD2
+imprimirlln			KEYWORD2
+disponivel			KEYWORD2
+ler			KEYWORD2
+le			KEYWORD2
+leCaractere			KEYWORD2
+escrever			KEYWORD2
+escreve			KEYWORD2
 
 # Datatypes -- RESERVED_WORD
 # ---------------------
 numerico			RESERVED_WORD_2
 decimal			RESERVED_WORD_2
+caractere			RESERVED_WORD_2
 vetor			RESERVED_WORD_2
 declare			RESERVED_WORD_2
+constante			RESERVED_WORD_2
 
 # Reserved -- RESERVED_WORD
 # -------------------------
@@ -47,6 +60,9 @@ e			RESERVED_WORD
 para			RESERVED_WORD
 de			RESERVED_WORD
 ate			RESERVED_WORD
+ateCrescente			RESERVED_WORD
+ateDecrescente			RESERVED_WORD
+ateEm			RESERVED_WORD
 
 enquanto			RESERVED_WORD
 faca			RESERVED_WORD

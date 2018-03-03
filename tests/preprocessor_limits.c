@@ -148,7 +148,7 @@ inicio
 
 	escreva("Enquanto de 1 ate 10")
 	declare(numerico, i)
-	i = 0
+	i <- 0
 	enquanto i < 10 faca
 	inicio
 		escreva("Numero " variavel_numerica, i)
