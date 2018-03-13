@@ -1,4 +1,10 @@
-# ArduinoLang
+![ArduinoJson](banner.svg)
+
+---
+
+![Travis](https://img.shields.io/travis/jefersonla/ArduinoLang.svg)
+![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 Translating Wiring and C++ reserved words language to
 something different than English
