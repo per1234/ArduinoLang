@@ -34,6 +34,7 @@ escreve			KEYWORD2
 # Datatypes -- RESERVED_WORD
 # ---------------------
 numerico			RESERVED_WORD_2
+numerica			RESERVED_WORD_2
 decimal			RESERVED_WORD_2
 caractere			RESERVED_WORD_2
 vetor			RESERVED_WORD_2
@@ -41,6 +42,7 @@ declare			RESERVED_WORD_2
 variavel			RESERVED_WORD_2
 constante			RESERVED_WORD_2
 logico			RESERVED_WORD_2
+logica			RESERVED_WORD_2
 
 # Reserved -- RESERVED_WORD
 # -------------------------

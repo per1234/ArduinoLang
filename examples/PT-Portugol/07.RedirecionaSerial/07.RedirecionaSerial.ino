@@ -22,7 +22,7 @@ configura
 inicio
 
   // Configura a comunicação serial
-  Serial.comecar(9600)
+  comeca(Serial, 9600)
   
 fim
 
@@ -35,10 +35,10 @@ inicio
 
     // Le um caractere da comunicacao serial
     caractere(caractereLido)
-    caractereLido = Serial.leCaractere
+    caractereLido = le(Serial)
 
     // Envia o caractere de volta
-    Serial.escreve(caractereLido)
+    escreve(Serial, caractereLido)
   
   fimse
   

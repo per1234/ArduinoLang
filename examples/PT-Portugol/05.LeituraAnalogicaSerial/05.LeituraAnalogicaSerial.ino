@@ -24,7 +24,7 @@ configura
 inicio
 
   // Inicializa a comunicação serial
-  Serial.comecar(9600)
+  comeca(Serial, 9600)
 
 fim
 
@@ -33,11 +33,11 @@ algoritmo
 inicio
 
   // Le o valor do pino analogico, valor este entre 0 e 1023
-  numerico(valorSensor)
+  variavel(numerico, valorSensor)
   valorSensor = leiaAnalogico(A0)
 
   // Imprime o estado do botão na Serial
-  Serial.imprimeln(valorSensor)
+  imprimeln(Serial, valorSensor)
 
   // Espera por 1 milissegundo para aumentar a estabilidade
   espera(1)

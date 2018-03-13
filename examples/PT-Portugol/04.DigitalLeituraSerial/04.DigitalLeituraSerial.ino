@@ -18,7 +18,7 @@
 #include <ArduinoLangPT_Portugol.h>
 
 // Define o pino do botao como o pino 4
-numerico(botaoMomentaneo, 4)
+variavel(numerico, botaoMomentaneo = 4)
 
 // Configura o arduino
 configura
@@ -37,7 +37,7 @@ algoritmo
 inicio
 
   // Le o estado do pino com botao
-  numerico(estadoBotao)
+  variavel(numerico, estadoBotao)
   estadoBotao = leiaDigital(botaoMomentaneo)
 
   // Imprime o estado do botão na Serial

@@ -33,15 +33,15 @@ algoritmo
 inicio
 
   // Le o valor do pino analogico, valor este entre 0 e 1023
-  numerico(valorSensor)
+  variavel(numerico, valorSensor)
   valorSensor = leiaAnalogico(A0)
 
   // Converte a leitura analogica para uma voltagem entre 0 e 5V
-  decimal(voltagem)
+  variavel(decimal, voltagem)
   voltagem = valorSensor * (5.0 / 1023.0)
 
   // Imprime o estado do botão na Serial
-  Serial.imprimeln(voltagem)
+  imprimeln(Serial, voltagem)
 
   // Espera por 1 milissegundo para aumentar a estabilidade
   espera(1)

@@ -64,6 +64,10 @@
 #define caractere(...) GET_MACRO(_, ##__VA_ARGS__, _, _, caractere2, caractere1, caractere0)(__VA_ARGS__)
 #define logico(...) GET_MACRO(_, ##__VA_ARGS__, _, _, logico2, logico1, logico0)(__VA_ARGS__)
 
+// Other names for declare functions
+#define numerica(...) numerico(##__VA_ARGS__)
+#define logica(...) logica(##__VA_ARGS__)
+
 // Vector Initialization
 #define vetor(_TYPE, _NAME, _SIZE, ...) PREVENT_SEMICOLON_ERROR _TYPE() _NAME[_SIZE + 1] PREPEND_EQUAL_IF_NONEMPTY(__VA_ARGS__);
 //#define vetor(...) GET_MACRO(_, ##__VA_ARGS__, vetor4, vetor3, _, _, _)(__VA_ARGS__)
@@ -129,8 +133,8 @@
 #define le(_OBJECT) _OBJECT.read();
 #define leCaractere le(Serial)
 
-#define escrever(_OBJECT, _CHAR) PREVENT_SEMICOLON_ERROR _OBJECT.write(_CHAR);
-#define escreve write
+#define escrever write
+#define escreve(_OBJECT, _CHAR) PREVENT_SEMICOLON_ERROR _OBJECT.write(_CHAR);
 
 // Avoid errors on objects
 //#define Serial PREVENT_SEMICOLON_ERROR Serial

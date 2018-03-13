@@ -34,20 +34,20 @@ vetor(numerico, melodia, 8, {
 })
 
 // Especifica o pino do alto falante
-numerico(pinoAltoFalante, 8)
+variavel(numerico, pinoAltoFalante = 8)
 
 // Configura o arduino
 configura
 inicio
 
   // Percore as notas da melodia
-  numerico(estaNota)
+  variavel(numerico, estaNota)
   para estaNota de 1 ate(estaNota, 8) faca
   inicio
 
     // Para calcular a duração da nota, pegue um segundo e divida pelo tipo da nota.
     // Exemplo: quarta nota = 1000 / 4, oitava nota = 1000 / 8, etc. 
-    numerico(duracaoNota)
+    variavel(numerico, duracaoNota)
     duracaoNota = 1000 / duracaoNotas[estaNota]
     
     // Executa o tom pelo tempo definido
@@ -55,7 +55,7 @@ inicio
 
     // Como o tom é executado em paralelo, para sentirmos a diferença entre as notas
     // iremos esperar por 30% do tempo a mais, porque funciona bem
-    numerico(pausaEntreNotas)
+    variavel(numerico, pausaEntreNotas)
     pausaEntreNotas = duracaoNota * 1.30
     espera(pausaEntreNotas)
 

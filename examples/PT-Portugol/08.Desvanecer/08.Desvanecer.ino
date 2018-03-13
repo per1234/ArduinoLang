@@ -18,13 +18,13 @@
 #include <ArduinoLangPT_Portugol.h>
 
 // Define o pino do led com o valor 9
-numerico(led, 9)
+variavel(numerico, led = 9)
 
 // Define a claridade atual com valor 0
-numerico(luminosidade, 0)
+variavel(numerico, luminosidade = 0)
 
 // Define quantos pontos a serem removidos ou adicionadoos da claridade em 5
-numerico(quantidadeDesvanecer, 5)
+variavel(numerico, quantidadeDesvanecer = 5)
 
 // Configura o arduino
 configura

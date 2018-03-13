@@ -32,7 +32,7 @@ constante(numerico, pinoLed, 13)
 // Variavéis podem mudar. Elas são ideais para guardar valores
 
 // Armazena o estado do botão
-numerico(estadoBotao, 0)
+variavel(numerico, estadoBotao = 0)
 
 // Configura o arduino
 configura

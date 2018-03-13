@@ -39,7 +39,7 @@ algoritmo
 inicio
 
   // Declara uma variavél para ser utilizada no laco
-  numerico(valorEsmanecer)
+  variavel(numerico, valorEsmanecer)
 
   // Esmanecer saindo de 0 até 255 em passos de 5
   para valorEsmanecer de 0 ate(valorEsmanecer, 255, 5) faca
