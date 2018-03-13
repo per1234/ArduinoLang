@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1001"
+   height="250"
+   viewBox="0 0 264.84791 66.145837"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="ArduinoLangLogo.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath831"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path829"
+         d="M 0,638 H 1000 V 0 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath839"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path837"
+         d="M 0,638 H 1000 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="560.42209"
+     inkscape:cy="70.967167"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g827"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-bottom="5"
+     fit-margin-right="5"
+     fit-margin-left="5"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.2883269,-86.047553)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-137.80575,256.55859)"
+       inkscape:label="logo (2)"
+       id="g823">
+      <g
+         id="g827"
+         clip-path="url(#clipPath831)"
+         transform="matrix(0.44331091,0,0,0.44331091,559.35528,248.127)">
+        <g
+           id="g4988">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.60584259px;line-height:1.25;font-family:Ebrima;-inkscape-font-specification:'Ebrima, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00868e;fill-opacity:1;stroke:none;stroke-width:4.93878508"
+             x="243.53252"
+             y="-131.61794"
+             id="text1079"
+             transform="scale(1,-1)"><tspan
+               sodipodi:role="line"
+               id="tspan1077"
+               x="243.53252"
+               y="-131.61794"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.60584259px;font-family:Ebrima;-inkscape-font-specification:'Ebrima, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00868e;fill-opacity:1;stroke-width:4.93878508">Arduino</tspan></text>
+          <text
+             transform="scale(1,-1)"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.60584259px;line-height:1.25;font-family:Ebrima;-inkscape-font-specification:'Ebrima, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e5ad23;fill-opacity:1;stroke:none;stroke-width:4.93878508"
+             x="574.6662"
+             y="-132.89752"
+             id="text1079-8"><tspan
+               sodipodi:role="line"
+               id="tspan1077-1"
+               x="574.6662"
+               y="-132.89752"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.60584259px;font-family:Ebrima;-inkscape-font-specification:'Ebrima, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e5ad23;fill-opacity:1;stroke-width:4.93878508">Lang</tspan></text>
+        </g>
+        <g
+           id="g5292"
+           transform="matrix(0.87191488,0,0,0.87191488,90.305471,61.675729)">
+          <g
+             transform="matrix(0.874767,0,0,0.874767,86.545186,5.3806335)"
+             id="g4982">
+            <rect
+               rx="18.021"
+               style="fill:#e5ad23;fill-opacity:1;stroke:#e5ad23;stroke-width:2.6233449;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect4947"
+               width="214.40744"
+               height="207.96219"
+               x="271.62976"
+               y="-544.02167"
+               transform="scale(1,-1)"
+               ry="18.021" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:155.8813324px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.99315357"
+               x="300.28391"
+               y="-384.62964"
+               id="text4977"
+               transform="scale(1,-1)"><tspan
+                 sodipodi:role="line"
+                 id="tspan4975"
+                 x="300.28391"
+                 y="-384.62964"
+                 style="font-weight:bold;fill:#ffffff;stroke-width:8.99315357">文</tspan></text>
+          </g>
+          <g
+             transform="matrix(0.874767,0,0,0.874767,-17.032563,95.42999)"
+             id="g4973">
+            <rect
+               rx="18.021"
+               style="fill:#00868e;fill-opacity:1;stroke:#00868e;stroke-width:2.6233449;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect4947-0"
+               width="214.40744"
+               height="207.96219"
+               x="519.18787"
+               y="-310.00418"
+               ry="18.021"
+               transform="scale(1,-1)" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.06896973px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:9.81167126"
+               x="560.58118"
+               y="-144.03261"
+               id="text4968"
+               transform="scale(1,-1)"><tspan
+                 sodipodi:role="line"
+                 id="tspan4966"
+                 x="560.58118"
+                 y="-144.03261"
+                 style="font-weight:bold;fill:#ffffff;stroke-width:9.81167126">A</tspan></text>
+          </g>
+          <g
+             transform="matrix(1.3654371,0,0,1.3654371,-733.82885,-189.3298)"
+             id="g5274">
+            <g
+               id="g5266">
+              <path
+                 id="path5073-8"
+                 transform="matrix(1.2390281,0,0,-1.2390281,264.72494,527.23675)"
+                 d="m 477.79102,151.74805 v 8.55273 h -45.68946 l 22.66797,22.8457 h 23.02149 v 8.82032 l 10.08007,-10.05469 10.08008,-10.05469 -10.08008,-10.05469 z"
+                 style="fill:#00c7d1;fill-opacity:1;stroke:none;stroke-width:0.99201554;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <g
+               id="g5262">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path5073"
+                 transform="matrix(1.6918149,0,0,-1.6918149,-372.3636,530.57882)"
+                 d="m 701.45117,88.230469 -7.30469,7.162109 -7.30664,7.162112 h 6.1875 V 119.375 h 16.73828 v -16.82031 h 6.29688 l -7.30469,-7.162112 z"
+                 style="fill:#e47128;fill-opacity:1;stroke:none;stroke-width:0.71278828;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+              <path
+                 sodipodi:nodetypes="ccccc"
+                 inkscape:connector-curvature="0"
+                 id="path5073-83"
+                 d="m 800.11038,328.61902 v 28.45625 l 14.16364,-14.22812 14.16365,-14.22813 z"
+                 inkscape:transform-center-y="-3.8413262e-06"
+                 inkscape:transform-center-x="-0.73835296"
+                 style="fill:#a34c14;fill-opacity:1;stroke:none;stroke-width:1.39884138;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
