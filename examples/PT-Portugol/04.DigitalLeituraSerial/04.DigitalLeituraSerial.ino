@@ -17,17 +17,17 @@
 // Inclui biblioteca para linguagem português com estilo da linguagem portugol
 #include <ArduinoLangPT_Portugol.h>
 
-// Define o pino do led como o pino 2
-numerico(botaoMomentaneo, 2)
+// Define o pino do botao como o pino 4
+numerico(botaoMomentaneo, 4)
 
 // Configura o arduino
 configura
 inicio
 
   // Inicializa a comunicação serial
-  Serial.comecar(9600)
+  comeca(Serial, 9600)
 
-  // Configura o pino 9 como saída
+  // Configura o pino 4 como entrada
   modoPino(botaoMomentaneo, ENTRADA)
 
 fim
@@ -41,7 +41,7 @@ inicio
   estadoBotao = leiaDigital(botaoMomentaneo)
 
   // Imprime o estado do botão na Serial
-  Serial.imprimeln(estadoBotao)
+  imprimeln(Serial, estadoBotao)
 
   // Espera por 1 milissegundo para aumentar a estabilidade
   espera(1)

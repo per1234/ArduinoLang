@@ -40,6 +40,7 @@ vetor			RESERVED_WORD_2
 declare			RESERVED_WORD_2
 variavel			RESERVED_WORD_2
 constante			RESERVED_WORD_2
+logico			RESERVED_WORD_2
 
 # Reserved -- RESERVED_WORD
 # -------------------------
