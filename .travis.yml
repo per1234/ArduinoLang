@@ -1,0 +1,36 @@
+language: python
+python:
+    - "2.7"
+
+# Cache PlatformIO packages using Travis CI container-based infrastructure
+sudo: false
+cache:
+    directories:
+        - "~/.platformio"
+
+env:
+    # Use this little line of shell script to generate list of files to compile
+    # for x in $(echo $(find examples/ -type f) | cat); echo "  - PLATFORMIO_CI_SRC="$x
+    # --- Portuguese - Portugol Version ---
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex02.Pisca/Ex02.Pisca.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex08.Desvanecer/Ex08.Desvanecer.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex04.DigitalLeituraSerial/Ex04.DigitalLeituraSerial.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex01.CodigoMinimo/Ex01.CodigoMinimo.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex05.LeituraAnalogicaSerial/Ex05.LeituraAnalogicaSerial.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex07.RedirecionaSerial/Ex07.RedirecionaSerial.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex09.Melodia/Ex09.Melodia.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex09.Melodia/notas.h
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex06.LeituraAnalogicaVoltagem/Ex06.LeituraAnalogicaVoltagem.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex03.Botao/Ex03.Botao.ino
+    - PLATFORMIO_CI_SRC=examples/PT-Portugol/Ex10.Esmanecer/Ex10.Esmanecer.ino
+
+
+install:
+    - pip install -U platformio
+    # Install libraries needed
+    # -- no libraries need 
+    # Update libraries to prevent cache of old versions
+    # -- no libraries to update
+
+script:
+    - platformio ci --lib="." --board=uno --board=miniatmega328 --board=pro16MHzatmega328 --board=megaatmega2560 --board=megaatmega1280
