@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: ArduinoLang
+email: oi_je@hotmail.com
+description: Arduino Lang, convertendo a linguagem Arduino para algo além do inglês.
+url: https://jefersonla.github.io/ArduinoLang # the base hostname & protocol for your site
+keywords: ["Programming", "Arduino", "Language", "translation"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Bahia
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /artigos/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: ArduinoLang
+  avatar: arduinolang-logo-small.png # Change this to Arduino Logo
+  job: "By jefersonla"
+  bio: "Convertendo as linguagens de programação para algo além do inglês."
+  email: oi_je@hotmail.com
+  disqus-shortname: arduinolang
+  telegram: jefersonla
+  github: jefersonla #username
+  linkedin: jefersonla #username
+  google:
+    analytics: UA-62251910-2 #CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    plus: #username
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  twitter: #username
+  steam: #username
+  facebook: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
