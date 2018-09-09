@@ -4,32 +4,32 @@
 
 # Functions -- KEYWORD2
 # ---------------------
-modoPino			KEYWORD2
-escrevaDigital			KEYWORD2
-escrevaAnalogico			KEYWORD2
-leiaDigital			KEYWORD2
-leiaAnalogico			KEYWORD2
-declare			KEYWORD2
-espera			KEYWORD2
-tom			KEYWORD2
-semTom			KEYWORD2
-limites			KEYWORD2
-mapeie			KEYWORD2
+modoPino	KEYWORD2
+escrevaDigital	KEYWORD2
+escrevaAnalogico	KEYWORD2
+leiaDigital	KEYWORD2
+leiaAnalogico	KEYWORD2
+declare	KEYWORD2
+espera	KEYWORD2
+tom	KEYWORD2
+semTom	KEYWORD2
+limites	KEYWORD2
+mapeie	KEYWORD2
 
 # Methods -- KEYWORD2
 # ---------------------
-comecar			KEYWORD2
-comeca			KEYWORD2
-imprime			KEYWORD2
-imprimir			KEYWORD2
-imprimeln		KEYWORD2
-imprimirlln			KEYWORD2
-disponivel			KEYWORD2
-ler			KEYWORD2
-le			KEYWORD2
-leCaractere			KEYWORD2
-escrever			KEYWORD2
-escreve			KEYWORD2
+comecar	KEYWORD2
+comeca	KEYWORD2
+imprime	KEYWORD2
+imprimir	KEYWORD2
+imprimeln	KEYWORD2
+imprimirlln	KEYWORD2
+disponivel	KEYWORD2
+ler	KEYWORD2
+le	KEYWORD2
+leCaractere	KEYWORD2
+escrever	KEYWORD2
+escreve	KEYWORD2
 
 # Datatypes -- RESERVED_WORD
 # ---------------------
@@ -102,11 +102,11 @@ ArduinoLangES			DATA_TYPE
 # see this post https://forum.arduino.cc/index.php?topic=488243.0
 
 # the purpose of this file is to allow the keyword coloration of all keywords to be easily checked
-keywordKEYWORD1			KEYWORD1
-keywordKEYWORD2			KEYWORD2
-keywordKEYWORD3			KEYWORD3
-keywordLITERAL1			LITERAL1
-keywordLITERAL2			LITERAL2
+keywordKEYWORD1	KEYWORD1
+keywordKEYWORD2	KEYWORD2
+keywordKEYWORD3	KEYWORD3
+keywordLITERAL1	LITERAL1
+keywordLITERAL2	LITERAL2
 
 # 3 tabs are required between the keyword and the keyword identifier for these keyword types. This allows for other keyword identifiers or text to be included between which doesn't appear to have any effect, maybe for backwards compatibility?
 keywordRESERVED_WORD			RESERVED_WORD
